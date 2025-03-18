@@ -1,0 +1,123 @@
+
+
+
+/*MAIN*/
+.main-container {
+    grid-area: main;
+    padding: 20px;
+    background-color: #f4f4f9;
+    overflow-y: auto;
+}
+
+.main-title h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-inner h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-inner .material-icons {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+/*CHART SECTION*/
+.chart {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.chart-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0; /* Ensure no margin around cards */
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.area-chart {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#myChart {
+    width: 100% !important;
+    height: auto;
+}
+
+.option-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.option-date label {
+    margin-right: 10px;
+}
+
+.option-date input[type="date"] {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option-date input[type="submit"] {
+    padding: 8px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

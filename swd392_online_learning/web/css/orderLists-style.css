@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 8, 2024, 11:54:36 AM
+    Author     : vutie
+*/
+
+.sidebar {
+    background-color: #f0f4f7;
+    padding: 20px;
+    height: 100vh;
+}
+.sidebar .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.order-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.order-header {
+    font-weight: bold;
+    color: #f14e4e;
+}
+.order-item, .order-price, .order-payment, .order-status, .order-detail {
+    padding: 5px;
+    margin: 5px 0;
+}
+.order-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.order-detail {
+    background-color: #28a745;
+    color: white;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+    border-spacing: 10px; /* Thêm khoảng cách giữa các ô */
+}
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid #dee2e6;
+    padding: 10px;
+}

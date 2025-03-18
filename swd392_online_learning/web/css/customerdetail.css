@@ -1,0 +1,148 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 13, 2024, 2:08:03 PM
+    Author     : Nguyen Bao
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #9e9ea4;
+  font-family: "Montserrat", sans-serif;
+}
+
+.material-icons {
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main main";
+  height: 100vh;
+}
+
+/*HEADER*/
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 450px;
+}
+
+.header-left .material-icons {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.header-left input[type="text"] {
+  padding: 8px;
+  font-size: 1em;
+  font-family: "Arial", sans-serif;
+  border-radius: 20px; /* Bo tròn input */
+  width: 500px;
+  outline: none;
+}
+
+.header-left input[type="text"]::placeholder {
+  font-weight: bold; /* In đậm chữ trong placeholder */
+}
+
+.header-left input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.header {
+  grid-area: header;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*MAIN*/
+.main-container {
+  grid-area: main;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.detail-container {
+  width: 100%;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  font-size: 1em;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+  padding: 50px;
+  gap: 100px;
+}
+
+h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.left-detail {
+  flex: 2; /* Tỷ lệ flex nhỏ hơn */
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+.right-detail {
+  flex: 1;
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update {
+  margin-left: auto;
+  padding: 10px 20px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: rgb(41, 166, 9);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: #ffffff;
+  cursor: pointer;
+}
