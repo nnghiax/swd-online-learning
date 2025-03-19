@@ -4,8 +4,16 @@
         <servlet-name>homeView</servlet-name>
         <servlet-class>view.homeView</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>createCourseView</servlet-name>
+        <servlet-class>view.createCourseView</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>homeView</servlet-name>
         <url-pattern>/homeView</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createCourseView</servlet-name>
+        <url-pattern>/createCourseView</url-pattern>
     </servlet-mapping>
 </web-app>
