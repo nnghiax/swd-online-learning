@@ -8,6 +8,10 @@
         <servlet-name>createCourseView</servlet-name>
         <servlet-class>view.createCourseView</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>StudentsController</servlet-name>
+        <servlet-class>controller.StudentsController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>homeView</servlet-name>
         <url-pattern>/homeView</url-pattern>
@@ -15,5 +19,9 @@
     <servlet-mapping>
         <servlet-name>createCourseView</servlet-name>
         <url-pattern>/createCourseView</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentsController</servlet-name>
+        <url-pattern>/students</url-pattern>
     </servlet-mapping>
 </web-app>

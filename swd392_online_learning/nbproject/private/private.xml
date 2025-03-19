@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/swd392/online-learning/swd392_online_learning/web/createCourse.jsp</file>
-            <file>file:/D:/swd392/online-learning/swd392_online_learning/web/img/carousel-1.png</file>
-            <file>file:/D:/swd392/online-learning/swd392_online_learning/web/home.jsp</file>
-            <file>file:/D:/swd392/online-learning/swd392_online_learning/web/img/carousel-2.png</file>
+            <file>file:/D:/New%20folder/swd-online-learning/swd392_online_learning/src/java/DAO/StudentsDAO.java</file>
+            <file>file:/D:/New%20folder/swd-online-learning/swd392_online_learning/src/java/dal/DBContext.java</file>
+            <file>file:/D:/New%20folder/swd-online-learning/swd392_online_learning/src/java/controller/StudentsController.java</file>
         </group>
     </open-files>
 </project-private>
